@@ -1,3 +1,3 @@
-# Chibtatullah minhaz Portfolio website
+# Ahsan Habib Portfolio website
 
-## [live link](https://chminhaz.web.app)
+

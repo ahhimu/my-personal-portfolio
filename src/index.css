@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,700;0,900;1,900&display=swap");
+@import "tailwindcss";
+@plugin "daisyui";
+:root {
+  --primaryColor: #111122;
+  --secondaryColor: #f8b90c;
+  --blackColor: #13131a;
+  --dangerColor: #f75842;
+  --border: 1px solid #5662f6;
+  --boxShadow: 0 0.2em 1.5em rgba(240, 232, 7, 0.7);
+  --textShadow: 0 0.1em 1.5em rgba(128, 124, 250, 0.7);
+  --whiteShadow: 0 0.1em 1.5em #fff;
+  --footerColor: #1c222a;
+  --PlayfairFont: "Playfair Display", serif;
+  --poppinsFont: "Poppins", sans-serif;
+  --robotoFont: "Roboto", sans-serif;
+  --normalColor: #fff;
+}
+
+* {
+  font-family: var(--poppinsFont);
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: all 0.4s linear;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  background-color: var(--blackColor);
+  color: var(--normalColor);
+  margin: 0 auto;
+  inset: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.min {
+  min-height: calc(100vh - 200px);
+}
+nav,
+footer {
+  background: var(--blackColor);
+  z-index: 999;
+}
+.buttonDesign {
+  font-family: var(--poppinsFont);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--normalColor);
+  padding: 0.6rem 1rem;
+  border-radius: 4rem 4rem 4rem 4rem;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  border: 1px solid var(--secondaryColor);
+}
+.buttonDesign:hover {
+  background-color: var(--secondaryColor);
+  box-shadow: var(--boxShadow);
+  background: linear-gradient(-50deg, #111122 0%, #111122 100%);
+  border: var(--border);
+}
+
+.hireButtonDesign {
+  font-family: var(--poppinsFont);
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: var(--secondaryColor);
+  color: var(--normalColor);
+  padding: 0.6rem 1rem;
+  border-radius: 4rem 4rem 4rem 4rem;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  border: 1px solid var(--secondaryColor);
+}
+.hireButtonDesign:hover {
+  background-color: var(--secondaryColor);
+  box-shadow: var(--boxShadow);
+  background: linear-gradient(-50deg, #111122 0%, #111122 100%);
+  border: var(--border);
+}
+.active {
+  background-color: var(--secondaryColor);
+  box-shadow: var(--boxShadow);
+  background: linear-gradient(-50deg, #111122 0%, #111122 100%);
+  border: var(--border);
+}
+
+.circle-icon:hover {
+  background-color: var(--secondaryColor);
+  box-shadow: var(--boxShadow);
+  background: linear-gradient(-50deg, #111122 0%, #111122 100%);
+}
+.LeftSideIcon:hover {
+  box-shadow: var(--boxShadow);
+  background: none;
+  background-color: none;
+}
+
+.intro_text {
+  margin-bottom: 3rem;
+}
+.intro_text p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #7fffd4;
+  text-shadow: var(--textShadow);
+}
+
+.text_1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 3.5rem;
+}
+.text_2 {
+  font-size: 2.3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 3.5rem;
+}
+.text_2 span {
+  font-weight: bolder;
+  text-transform: uppercase;
+  background: linear-gradient(-25deg, #5662f6 0%, #7fffd4 80%);
+  color: transparent;
+  background-clip: text;
+  line-height: 3.5rem;
+}
+
+.service_heading {
+  text-align: center;
+  line-height: 2.5rem;
+}
+.service_title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 3.6rem;
+}
+.service_sub_title {
+  color: var(--secondaryColor);
+  font-size: 1rem;
+}
+
+.card {
+  background: var(--blackColor);
+  /* box-shadow: var(--boxShadow); */
+  border-radius: 1.5rem;
+  cursor: pointer;
+  border: 1px solid var(--secondaryColor);
+  transition: background-color 0.4s ease, box-shadow 0.4s ease,
+    transform 0.3s ease;
+}
+.card:hover {
+  box-shadow: var(--textShadow);
+  border: var(--border);
+}
+
+.sbox {
+  padding: 1.5rem;
+}
+.sbox i {
+  color: var(--secondaryColor);
+  font-size: 2rem;
+}
+.sbox h3 {
+  font-family: var(--PlayfaiFont);
+  font-weight: bolder;
+}
+.sbox p {
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+.see_more a {
+  color: var(--dangerColor);
+  font-family: var(--poppinsFont);
+  font-weight: 600;
+}
+.see_more a i {
+  font-size: 0.9rem;
+  color: var(--dangerColor);
+  margin-left: 1rem;
+}
+.contact_sections {
+  text-align: center;
+}
+
+.cbox i {
+  color: var(--secondaryColor);
+  text-align: center;
+  text-shadow: var(--textShadow);
+}
+.box_border {
+  border: 1px solid var(--secondaryColor);
+}
+.box_border:hover {
+  border: var(--border);
+}

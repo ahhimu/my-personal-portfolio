@@ -1,0 +1,24 @@
+[
+    {
+      "title": "AHSAN HABIB",
+      "sub": "Web Developer (MERN)",
+      "icon": "fa-solid fa-laptop-code",
+      "link": "https://github.com/ahhimu",
+      "animation": "zoom-in"
+    },
+    {
+      "title": "Freelance",
+      "sub": "Available Right Now​",
+      "icon": "fa-solid fa-user",
+      "link": "https://www.fiverr.com/sellers/ahasanhabibhimu/",
+      "animation": "flip-left"
+    },
+    {
+      "title": "Email",
+      "sub": "ahasanhabibhimu.bc@gmail.com​",
+      "icon": "fa-solid fa-envelope",
+      "link": "mailto:ahasanhabibhimu.bc@email.com",
+      "animation": "zoom-in"
+    }
+  ]
+  

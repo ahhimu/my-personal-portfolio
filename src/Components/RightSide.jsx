@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaFacebook, FaYoutube, FaShopify } from "react-icons/fa";
 
 const socialLinks = [
-  { icon: <FaGithub />, url: "https://github.com/chibgatullahminhaz" },
-  { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/chibgatullah-minhaz-536149361/" },
-  // { icon: <FaShopify />, url: "https://www.fiverr.com/users/chibgatullah554/" },
-  { icon: <FaFacebook />, url: "https://www.facebook.com/profile.php?id=100073178942060" },
-  { icon: <FaYoutube />, url: "#" },
+  { icon: <FaGithub />, url: "https://github.com/ahhimu" },
+  { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/ahsan-habib7/" },
+  { icon: <FaShopify />, url: "https://www.fiverr.com/sellers/ahasanhabibhimu/edit" },
+  { icon: <FaFacebook />, url: "https://www.facebook.com/ah.himu07" },
+  { icon: <FaYoutube />, url: "https://www.youtube.com/" },
 ];
 
 const RightSide = () => {

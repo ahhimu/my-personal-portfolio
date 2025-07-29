@@ -29,19 +29,22 @@ export const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex flex-wrap justify-center gap-4 text-2xl">
-            <Link to="https://github.com/chibgatullahminhaz" target="_blank" rel="noopener noreferrer" className="circle-icon">
+            <Link to="https://github.com/ahhimu" target="_blank" rel="noopener noreferrer" className="circle-icon">
               <FaGithub />
+
             </Link>
-            <Link to="#" target="_blank" rel="noopener noreferrer" className="circle-icon">
+            <Link to="https://www.linkedin.com/in/ahsan-habib7/" target="_blank" rel="noopener noreferrer" className="circle-icon">
               <FaLinkedin />
             </Link>
-            <Link to="https://www.fiverr.com/chibgatullah_" target="_blank" rel="noopener noreferrer" className="circle-icon">
+
+
+            <Link to="https://www.fiverr.com/sellers/ahasanhabibhimu/edit" target="_blank" rel="noopener noreferrer" className="circle-icon">
               <FaShopify />
             </Link>
-            <Link to="https://www.facebook.com/profile.php?id=100073178942060" target="_blank" rel="noopener noreferrer" className="circle-icon">
+            <Link to="https://www.facebook.com/ah.himu07" target="_blank" rel="noopener noreferrer" className="circle-icon">
               <FaFacebook />
             </Link>
-            <Link to="#" target="_blank" rel="noopener noreferrer" className="circle-icon">
+            <Link to="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="circle-icon">
               <FaYoutube />
             </Link>
           </div>
@@ -54,7 +57,7 @@ export const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          © All Rights Reserved {new Date().getFullYear()} | Chibgatullah Minhaz
+          © All Rights Reserved {new Date().getFullYear()} | MD. AHSAN HABIB
         </motion.div>
       </div>
     </motion.footer>

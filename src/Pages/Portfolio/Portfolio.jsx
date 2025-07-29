@@ -88,7 +88,7 @@ export const Portfolio = () => {
   return (
     <>
       <Helmet>
-        <title>Portfolio - Chibgatullah Minhaz</title>
+        <title>Portfolio - MD. AHSAN HABIB</title>
         <meta
           name="description"
           content="This is a portfolio website. This website is Chibgatullah Minhaz"

@@ -1,6 +1,6 @@
 import React from 'react';
 import { TypingEffect } from "./TypingEffect";
-import { Link } from 'react-router'; 
+import { Link } from 'react-router';
 import { motion } from "framer-motion";
 
 const MinddlePart = () => {
@@ -42,7 +42,7 @@ const MinddlePart = () => {
         transition={{ delay: 0.6 }}
       >
         <p>
-         A passionate MERN Stack Web Developer with a strong focus on Front-End Development.I love crafting clean, scalable code and building intuitive, user-friendly interfaces. My goal is to solve real-world problems by blending performance with seamless user experiences.
+          A passionate MERN Stack Web Developer with a strong focus on Front-End Development.I love crafting clean, scalable code and building intuitive, user-friendly interfaces. My goal is to solve real-world problems by blending performance with seamless user experiences.
         </p>
       </motion.div>
 
@@ -55,9 +55,16 @@ const MinddlePart = () => {
         <Link to={`/contact`} className="btn hireButtonDesign animate-bounce">
           Contact Me↗
         </Link>
-        <Link target='_blank' to={`https://docs.google.com/document/d/1LQMz9x5akUgifUAPlNUIxtDiRdUXZVf87zN-AHrV5Co/edit?usp=sharing`} className="btn buttonDesign animate-bounce">
-            See Resume↗
-        </Link>
+
+        <a
+          href="/cv.pdf"
+          download="MD_AHSAN_HABIB_CV.pdf"
+          className="btn buttonDesign animate-bounce"
+        >
+          See Resume↗
+        </a>
+
+
       </motion.div>
     </motion.div>
   );
